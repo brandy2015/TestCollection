@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
 
+    //push成功
     
     @IBOutlet weak var collectionView: UICollectionView!
     //    var collectionView: UICollectionView!
