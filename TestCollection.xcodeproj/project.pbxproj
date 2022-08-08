@@ -14,6 +14,8 @@
 		D689724025E2A10A0079D450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D689723E25E2A10A0079D450 /* Main.storyboard */; };
 		D689724225E2A10B0079D450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D689724125E2A10B0079D450 /* Assets.xcassets */; };
 		D689724525E2A10B0079D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D689724325E2A10B0079D450 /* LaunchScreen.storyboard */; };
+		D6F2986D28A0C0890012347E /* VC_Image_ReOrdered.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2986C28A0C0890012347E /* VC_Image_ReOrdered.swift */; };
+		D6F2986F28A0C0AA0012347E /* VC_Image_ReOrdered_CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2986E28A0C0AA0012347E /* VC_Image_ReOrdered_CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D689724125E2A10B0079D450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D689724425E2A10B0079D450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D689724625E2A10B0079D450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F2986C28A0C0890012347E /* VC_Image_ReOrdered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Image_ReOrdered.swift; sourceTree = "<group>"; };
+		D6F2986E28A0C0AA0012347E /* VC_Image_ReOrdered_CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Image_ReOrdered_CollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,50 @@
 		D689723725E2A10A0079D450 /* TestCollection */ = {
 			isa = PBXGroup;
 			children = (
-				D689723825E2A10A0079D450 /* AppDelegate.swift */,
-				D689723A25E2A10A0079D450 /* SceneDelegate.swift */,
-				D689723C25E2A10A0079D450 /* TestUICollectionViewVC.swift */,
-				D616111925E32CAE00A7CB3D /* TestcollectionViewCell.swift */,
-				D689723E25E2A10A0079D450 /* Main.storyboard */,
+				D6F2987028A0C1520012347E /* 0.SB */,
+				D6F2986A28A0C05D0012347E /* 1.Base */,
+				D6F2986B28A0C0670012347E /* 2.Image_ReOrdered */,
+				D6F2987128A0C16D0012347E /* AppDelegate */,
 				D689724125E2A10B0079D450 /* Assets.xcassets */,
-				D689724325E2A10B0079D450 /* LaunchScreen.storyboard */,
 				D689724625E2A10B0079D450 /* Info.plist */,
 			);
 			path = TestCollection;
+			sourceTree = "<group>";
+		};
+		D6F2986A28A0C05D0012347E /* 1.Base */ = {
+			isa = PBXGroup;
+			children = (
+				D689723C25E2A10A0079D450 /* TestUICollectionViewVC.swift */,
+				D616111925E32CAE00A7CB3D /* TestcollectionViewCell.swift */,
+			);
+			path = 1.Base;
+			sourceTree = "<group>";
+		};
+		D6F2986B28A0C0670012347E /* 2.Image_ReOrdered */ = {
+			isa = PBXGroup;
+			children = (
+				D6F2986C28A0C0890012347E /* VC_Image_ReOrdered.swift */,
+				D6F2986E28A0C0AA0012347E /* VC_Image_ReOrdered_CollectionCell.swift */,
+			);
+			path = 2.Image_ReOrdered;
+			sourceTree = "<group>";
+		};
+		D6F2987028A0C1520012347E /* 0.SB */ = {
+			isa = PBXGroup;
+			children = (
+				D689724325E2A10B0079D450 /* LaunchScreen.storyboard */,
+				D689723E25E2A10A0079D450 /* Main.storyboard */,
+			);
+			path = 0.SB;
+			sourceTree = "<group>";
+		};
+		D6F2987128A0C16D0012347E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D689723825E2A10A0079D450 /* AppDelegate.swift */,
+				D689723A25E2A10A0079D450 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D689723D25E2A10A0079D450 /* TestUICollectionViewVC.swift in Sources */,
+				D6F2986F28A0C0AA0012347E /* VC_Image_ReOrdered_CollectionCell.swift in Sources */,
 				D689723925E2A10A0079D450 /* AppDelegate.swift in Sources */,
 				D616111A25E32CAE00A7CB3D /* TestcollectionViewCell.swift in Sources */,
+				D6F2986D28A0C0890012347E /* VC_Image_ReOrdered.swift in Sources */,
 				D689723B25E2A10A0079D450 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
